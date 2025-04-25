@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.Counting-box {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgb(16, 147, 255);
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    border: none;
+    background-color: #1093ff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+}
+
+#image {
+    display: block;
+    margin: 50px auto;
+    max-width: 250px;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #0b71c5;
+}
