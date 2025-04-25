@@ -87,9 +87,9 @@ function toss(coin){
     }
     
     if(randomNumber === 1){
-        image.src = "image/masjid.jpg"
+        image.src = "images/masjid.jpg"
     } else {
-        image.src = "image/chand.jpg"
+        image.src = "images/chand.jpg"
     }
 }
 
