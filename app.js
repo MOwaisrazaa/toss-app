@@ -71,7 +71,7 @@
 
 
 var image = document.querySelector("#image");
-image.src = "image/masjid.jpg"
+image.src = "images/masjid.jpg"
 var result = document.querySelector("#result")
 
 function toss(coin){
@@ -87,9 +87,9 @@ function toss(coin){
     }
     
     if(randomNumber === 1){
-        image.src = "images/masjid.jpg"
+        image.src = "./images/masjid.jpg"
     } else {
-        image.src = "images/chand.jpg"
+        image.src = "./images/chand.jpg"
     }
 }
 
