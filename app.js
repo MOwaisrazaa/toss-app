@@ -71,7 +71,7 @@
 
 
 var image = document.querySelector("#image");
-image.src = "images/masjid.jpg"
+image.src = "https://en.numista.com/catalogue/photos/pakistan/424-original.jpg"
 var result = document.querySelector("#result")
 
 function toss(coin){
@@ -87,9 +87,9 @@ function toss(coin){
     }
     
     if(randomNumber === 1){
-        image.src = "./images/masjid.jpg"
+        image.src = "https://en.numista.com/catalogue/photos/pakistan/424-original.jpg"
     } else {
-        image.src = "./images/chand.jpg"
+        image.src = "https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-18814.jpg"
     }
 }
 
