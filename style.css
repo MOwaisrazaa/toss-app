@@ -45,4 +45,15 @@ p{
 
 button:hover{
     background-color: #0b71c5;
+
+}
+
+
+@keyframes spin {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(3600deg); }
+}
+
+.spin {
+  animation: spin 5s linear;
 }
