@@ -5,10 +5,11 @@
 var image = document.querySelector("#image");
 var result = document.querySelector("#result");
 image.src= "https://en.numista.com/catalogue/photos/pakistan/424-original.jpg"
+result.innerHTML = "Please Chose the toss Side ";
 
 function toss(coin) {
-    result.innerHTML = "Please Chose the toss Side ";
-
+    result.innerHTML = "Wait.....";
+    
     // Start spin animation
     image.classList.add("spin");
 
